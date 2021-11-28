@@ -134,4 +134,9 @@ p h3{
     text-align: center;
     padding: 30px 15px;
   }
+  .hero{
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 40px;
+}
 }
