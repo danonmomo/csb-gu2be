@@ -40,7 +40,6 @@ p {
   font-size: 18px;
   line-height: 1.5;
   font-family: 'Playfair Display', serif;
-  text-align: center;
 }
 
 .hero{
@@ -114,4 +113,25 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.project-description {
+  padding: 60px 30px;
+}
+
+@media (max-width: 900px) {
+
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 20px;
+}
+p h3{
+  font-size: 15px;
+}
+  .project-description {
+    text-align: center;
+    padding: 30px 15px;
+  }
 }
