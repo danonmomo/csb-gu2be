@@ -16,7 +16,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
 }
@@ -33,7 +33,18 @@ h3 {
   opacity: 0.7;
   font-family: 'Playfair Display', serif;
   text-align: center;
+  margin-bottom: 30px;
 }
+
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+h5 {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
+
 p {
   background: white;
   padding: 20px;
@@ -56,12 +67,25 @@ p {
   border-radius: 4px;
   color: white;
   font-size: 14px;
+  font-family: 'Playfair Display', serif;
+}
+
+.btn-branding-contact {
+  background: var(--primary-color);
+  border-radius: 10px;
+  color:white;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  padding: 20px 15px;
 }
 
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: right;
+  
 }
 
 .primary-link {
@@ -72,6 +96,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: 'Playfair Display', serif;
 }
 .contact-link {
   background: var(--primary-color);
@@ -147,6 +172,29 @@ p {
   background: var(--secondary-color);
 }
 
+footer {
+  margin-top: 30px;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  padding: 30px 200px;
+}
+
+footer .email-link {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+footer .social-links a {
+  font-size: 20px;
+  background: var(--secondary-color);
+  margin: 10px;
+  padding: 8px 14px;
+  border-radius: 50%;
+}
+
 @media (max-width: 900px) {
 
 h1{
@@ -170,4 +218,11 @@ p h3{
 .about-section {
   text-align: center;
 }
+
+footer .contact-box {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  padding: 30px 120px;
+}
+
 }
